@@ -44,4 +44,11 @@ $ sudo apt install ros-foxy-turtlesim
 
 # Once it is intalled try turtle_teleop_key
 $ ros2 run turtlesim turtle_teleop_key
+
+# Monitor the movement
+$ ros2 topic echo /turtle1/cmd_vel
 ```
+
+Notice that it only sends 2.0 and -2.0 along x and z axis
+
+
