@@ -55,6 +55,7 @@ Since we know what the topic sends, we will modify `ROS2 Listener Example` to ac
 
 In Unity, click vertical 3 dots in `ROS2 Listener Example` >> Edit Script 
 
+* Script location `Assets/Ros2ForUnity/Scripts`
 ```cs
 // Copyright 2019-2021 Robotec.ai.
 //
