@@ -32,5 +32,16 @@ In Assets Panel right click:
 # Add Scripts
 - Click: Assets >> Ros2ForUnity >> Scripts
 - Click: Cube
-- Drag 'ROS2 Unity Compoenet(Mono Scrip)' into inspector panel in Cube
-- Drag 'ROS2 Listener Example' to the cube's inspector
+- Drag `ROS2 Unity Compoenet(Mono Scrip)` into inspector panel in Cube
+- Drag `ROS2 Listener Example' to the cube`s inspector
+
+Check `ros-foxy-turtlesim` is installed
+```bash
+$ sudo apt search ros-foxy-turtlesim
+
+# If not installed
+$ sudo apt install ros-foxy-turtlesim
+
+# Once it is intalled try turtle_teleop_key
+$ ros2 run turtlesim turtle_teleop_key
+```
